@@ -4,9 +4,9 @@ This program is about setting up a REST service using golang with the help of ht
 Before executing the program we need HTTPROUTER package.We first need to fetch the package with go get.
 $ go get github.com/julienschmidt/httprouter
 
-mgo is used as mongo driver from golang. We will be using the following packages.
-$ go get gopkg.in/mgo.v2
-$ go get gopkg.in/mgo.v2/bson
+In this program , we connect to mongo labs to connect to mongodb backend.To connect using a driver via the standard URI 
+
+  mongodb://<dbuser>:<dbpassword>@ds037617.mongolab.com:37617/cmpe273
 
 
 How to execute : 
